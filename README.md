@@ -7,7 +7,7 @@
   - PostgreSQL
 # Instructions
   - download the project zip file
-  - run the file to create the database
+  - pg_restore the base_bkp.sql file
   - start the php server in the terminal with the command:
  ```
 php -S localhost:8000
