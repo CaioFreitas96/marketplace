@@ -8,8 +8,7 @@
 # Instructions
   - download the project zip file
   - run the postgres command to create the database:
-```
-  pg_dump -U postgres -Fc base > base.dump
+``` 
   createdb -U postgres base
   pg_restore -U postgres -d postgres -d base base.dump
 ```  
