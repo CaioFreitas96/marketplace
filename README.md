@@ -7,6 +7,7 @@
   - PostgreSQL
 # Instructions
   - download the project zip file
+  - in the php directory in php.ini uncomment the pgsql extension line
   - run the postgres command to create the database:
 ``` 
   createdb -U postgres base
